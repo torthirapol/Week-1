@@ -414,10 +414,10 @@ int main(void) {
 	int n = 0;
  800050c:	2300      	movs	r3, #0
  800050e:	61bb      	str	r3, [r7, #24]
-	while (1) {
 		/* USER CODE END WHILE */
 
 		/* USER CODE BEGIN 3 */
+		///
 ////<<<<<<<<<TASK 1>>>>>>>>>
 		if (HAL_GetTick() - ButtonTimeStamp >= 100) {
  8000510:	f000 fb8a 	bl	8000c28 <HAL_GetTick>
